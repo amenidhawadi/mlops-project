@@ -10,9 +10,11 @@ __pycache__/
 
 # MLflow / DB
 mlflow.db
+mlruns/
+
 mlflow.db.bak
 mlflow.db.old
-mlruns/
+
 
 # Notebooks
 .ipynb_checkpoints/
