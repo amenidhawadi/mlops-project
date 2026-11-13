@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# MLflow / DB
+mlflow.db
+mlflow.db.bak
+mlflow.db.old
+mlruns/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store
