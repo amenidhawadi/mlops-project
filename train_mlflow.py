@@ -11,6 +11,8 @@ from sklearn.metrics import (
 df = pd.read_csv("churn_data.csv")
 y = df["churn"]
 
+mlflow.set_tracking_uri("sqlite:///C:/Users/ameni/tp1-mlops/mlflow.db")
+
 # ===== 3. Fonction : préparer les données pour une liste de colonnes =====
 def preparer(colonnes):
     X = pd.get_dummies(df[colonnes], drop_first=True)
